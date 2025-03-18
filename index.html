@@ -7,20 +7,21 @@
     <link rel="stylesheet" href = "style.css">
 </head>
 <body class="sidebar">
-    <section class="top">
+    <aside class="top">
         <header class="topbar">
-            <section class="topbar__left">
-                <button class="topbar__button button">
-                    <img src="images/close.svg" alt="Закрыть">
-                </button>
+            <button class="topbar__button button">
+                <img src="images/close.svg" alt="Закрыть">
+            </button>
 
-                <img src="images/logo.png" alt="Лого" class="topbar__logo">
-            </section>
+            <img src="images/logo.png" alt="Лого" class="logo">
+            
             <button class="topbar__button button">
                 <img src="images/search.svg" alt="Поиск">
             </button>
 
         </header>
+
+        
 
         <nav class="menu">
             <ul class="menu__items">
@@ -34,34 +35,50 @@
                 <li class="menu__item">Контакты</li>
             </ul>
         </nav>
-    </section>
+    </aside>
     
     <footer class="footer">
-        <section class="footer__buttons">
-            <button class="footer__button button">
-                <img src="images/call.svg" alt="Позвонить">
-            </button>
-            <button class="footer__button button">
-                <img src="images/chat.svg" alt="Написать сообщение">
-            </button>
-            <button class="footer__button button">
-                <img src="images/profile.svg" alt="Профиль">
-            </button>
-        </section>
+        <ul class="footer__buttons">
+            <li class="footer__item">
+                <button class="footer__button button">
+                    <img src="images/call.svg" alt="Позвонить">
+                </button>
+            </li>
+            
+            <li class="footer__item">
+                <button class="footer__button button">
+                    <img src="images/chat.svg" alt="Написать сообщение">
+                </button>
+            </li>
 
-        <span class="footer__email">
-            mail@cps.com
-        </span>
+            <li class="footer__item">
+                <button class="footer__button button">
+                    <img src="images/profile.svg" alt="Профиль">
+                </button>
+            </li>
+        </ul>
 
-        <span class="footer__tel">
-            8 800 890 8900
-        </span>
+        <adress class="contacts">
+            <a class="contacts__email" href = "mailto: mail@cps.com">
+                mail@cps.com
+            </a>
 
-        <section class="footer__langs">
-            <button class="footer__lang">RU</button>
-            <button class="footer__lang">EN</button>
-            <button class="footer__lang">CH</button>
-        </section>
+            <a class="contacts__tel" href = "tel: 88008908900">
+                8 800 890 8900
+            </a>
+        </adress>
+
+        <ul class="footer__langs footer__buttons">
+            <li class="footer__item">
+                <button class="footer__lang">RU</button>
+            </li>
+            <li class="footer__item">
+                <button class="footer__lang">EN</button>
+            </li>
+            <li class="footer__item">
+                <button class="footer__lang">CH</button>
+            </li>
+        </ul>
     </footer>
 </body>
 </html>
