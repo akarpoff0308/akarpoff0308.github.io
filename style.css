@@ -392,6 +392,7 @@ body {
   width: 320px;
   height: 100vh;
   padding: 0;
+  padding-bottom: 30px;
   margin: 0;
   font-family: "TT Lakes Regular";
   font-weight: 500;
@@ -412,13 +413,8 @@ body {
   padding-right: 18px;
 }
 
-.topbar__logo {
-  margin-left: 16px;;
-}
-
-.topbar__left {
-  display: inline-flex;
-  width: 55%    
+.logo {
+  padding-right: 50px;
 }
 
 .button {
@@ -480,20 +476,35 @@ body {
   padding-left: 24px;
 }
 
-.footer__email {
+.footer__buttons {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.footer__item {
+  list-style-type: none;
+}
+
+.contacts__email {
+  display: block;
   font-family: "TT Lakes Regular";
   font-weight: 500;
   font-size: 16px;
   height: 24px;
   margin-top: 10px;
+  color: #1B1C21;
+  text-decoration: none;
 }
 
-.footer__tel {
+.contacts__tel {
   font-family: "TT Lakes Bold";
   font-size: 24px;
   font-weight: 700;
   height: 32px;
   margin-top: 12px;
+  color: #1B1C21;
+  text-decoration: none;
 }
 
 .footer__langs {
